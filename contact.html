@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let’s Work Together.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav id="navbar" class="fade-in">
+      <div class="navbar-container">
+        <div class="logo">
+          <a href="index.html"><h1>EE</h1></a>
+        </div>
+        <button class="navbar-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="navbar-menu">
+          <li><a href="index.html" class="navbar-link">Home</a></li>
+          <li><a href="about.html" class="navbar-link">About</a></li>
+          <li>
+            <a href="services.html" class="navbar-link">Services</a>
+          </li>
+          <li>
+            <a href="projects.html" class="navbar-link">Projects</a>
+          </li>
+          <li><a href="contact.html" class="navbar-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="contact-info">
+      <h2 class="subheading fade-in">GET IN TOUCH</h2>
+      <div class="contact-wrapper">
+        <div class="contact-content slide-in-left">
+          <h3 class="title">CONTACT INFO</h3>
+          <p>
+            It is always a pleasure to work on new projects and bring ideas to
+            life. Feel free to reach out to me for collaborations, freelance
+            projects, or inquiries.
+          </p>
+          <h4>ADDRESS</h4>
+          <p>emmanuelessoun000@gmail.com</p>
+          <a
+            href="https://www.upwork.com/freelancers/~019c6f60d99147c205?mp_source=share"
+            style="display: none"
+            ><p>Hire Me on Upwork</p>
+            <img src="images/solid-arrow.png" alt=""
+          /></a>
+        </div>
+        <form
+          action=""
+          method="post"
+          enctype="text/plain"
+          class="slide-in-right"
+        >
+          <h3 class="title">CONTACT FORM</h3>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            id="name"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            id="email"
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            required
+            id="subject"
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+            id="message"
+          ></textarea>
+          <button type="button" class="btn" onclick="sendEmail()">
+            Send Message
+          </button>
+        </form>
+      </div>
+      <div class="position">
+        <ul class="social-links">
+          <img src="images/vertical-start-line.png" alt="" class="divider1" />
+
+          <li class="icon">
+            <a href=""><img src="images/ig-icon.png" alt="" /></a>
+          </li>
+          <li class="icon">
+            <a href=""><img src="images/fb-icon.png" alt="" /></a>
+          </li>
+          <li class="icon">
+            <a href=""><img src="images/whatsapp-icon.png" alt="" /></a>
+          </li>
+          <img src="images/vertical-end-line.png" alt="" class="divider2" />
+        </ul>
+        <div class="social-text">
+          <img src="images/horizontal-line.png" alt="" />
+          <p>CONNECT WITH ME</p>
+          <img src="images/horizontal-end-line.png" alt="" />
+        </div>
+        <div class="brand">
+          <img src="images/horizontal-start-line.png" alt="" />
+          <p>ESSOUN PORTFOLIO</p>
+          <img src="images/horizontal-end-line.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

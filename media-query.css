@@ -1,0 +1,430 @@
+:root {
+  --dark-color: #0b0b0d;
+  --dark-light: #141416;
+  --gray-color: #b3b3b3;
+}
+
+@media (max-width: 880px) {
+  .navbar-container {
+    margin: 10px 60px;
+    justify-content: space-between;
+  }
+
+  .navbar-container .navbar-menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.7rem !important;
+    position: absolute;
+    height: 100vh;
+    width: 250px;
+    top: 0;
+    right: 0;
+    padding: 5rem 1.5rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar-toggle {
+    display: block;
+    z-index: 999;
+  }
+
+  .navbar-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar-toggle.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .navbar-toggle.active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  #hero .hero-content {
+    width: 500px;
+    margin-top: 40%;
+  }
+
+  #hero .hero-content .heading {
+    font-size: 100px;
+    text-align: center;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .card-description {
+    padding: 10px 50px;
+  }
+
+  .card img {
+    margin-bottom: 40px;
+  }
+
+  .project-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .project-wrapper-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .contact-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .card img {
+    width: 550px;
+  }
+
+  .project-wrapper3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .project-wrapper3 .image img {
+    width: 300px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .project-wrapper3 h5 {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .project-wrapper4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .project-wrapper4 .image img {
+    width: 300px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .project-wrapper4 h5 {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .navbar-container {
+    margin: 10px 30px;
+    justify-content: space-between;
+  }
+  #hero .hero-content {
+    width: 300px;
+    margin-top: 30vh;
+  }
+  #hero .hero-content .heading {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  #hero .hero-content .welcome-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+  }
+
+  #hero .hero-content .subheadline p {
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  .text-divider {
+    padding: 10px;
+    margin-top: -5px;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .social-links-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10%;
+  }
+
+  .divider1,
+  .divider2 {
+    display: none;
+  }
+
+  #hero .brand {
+    margin-top: 50px;
+    display: none;
+  }
+
+  .social-text {
+    display: none;
+  }
+
+  .subheading {
+    font-size: 25px;
+  }
+
+  #about-info {
+    margin: 50px 50px 20px 50px;
+  }
+
+  #project-info {
+    margin: 50px 50px 20px 50px;
+  }
+
+  .about-img img {
+    width: 400px;
+  }
+
+  .paragraph {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .skill {
+    font-size: 12px;
+  }
+
+  #services-info {
+    margin: 50px 30px 20px 30px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-description {
+    padding: 10px 10px;
+  }
+
+  .card img {
+    margin-bottom: 20px;
+    width: 300px;
+  }
+
+  .project-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-wrapper-2 {
+    display: none;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  form {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  textarea,
+  input {
+    padding-left: 0;
+  }
+
+  #contact-info .social-links,
+  #contact-info .brand,
+  #contact-info .social-text {
+    display: none;
+  }
+
+  #contact-info {
+    margin: 50px 30px 0 30px;
+  }
+
+  .contact-content {
+    margin-bottom: 20px;
+  }
+
+  #hero .hero-content .welcome-text {
+    text-align: center;
+  }
+
+  .btn {
+    padding: 15px 30px;
+    font-size: 12px;
+  }
+
+  .project-wrapper3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .project-wrapper3 .image img {
+    width: 300px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .project-wrapper3 h5 {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .project-wrapper4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .project-wrapper4 .image img {
+    width: 300px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .project-wrapper4 h5 {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  #services-info img {
+    width: 250px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .brand {
+    display: none;
+  }
+
+  .about-img img {
+    width: 300px;
+  }
+
+  .skills-wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .paragraph {
+    width: 300px;
+  }
+
+  .box img:first-child {
+    width: 250px;
+  }
+
+  #hero .hero-content .heading {
+    font-family: "Supercharge Straight 3D", "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--gray-color);
+    margin: -20px;
+    text-align: center;
+  }
+
+  #hero .hero-content {
+    width: 300px;
+    margin-left: -70px;
+  }
+
+  #services-info {
+    margin-bottom: 30px;
+  }
+
+  #hero .hero-content .welcome-text {
+    text-align: left;
+  }
+
+  .btn {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+
+  .project-wrapper3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .project-wrapper3 .image img {
+    width: 300px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .project-wrapper3 h5 {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .project-wrapper4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .project-wrapper4 .image img {
+    width: 300px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .project-wrapper4 h5 {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
