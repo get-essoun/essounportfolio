@@ -188,7 +188,13 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin-top: 10%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+  }
+
+  .text-divider {
+    display: none;
   }
 
   .divider1,
